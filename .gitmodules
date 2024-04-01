@@ -1,0 +1,6 @@
+[submodule "dota2-api-backend"]
+	path = dota2-api-backend
+	url = git@github.com:johnmichealacera/dota2-api-backend.git
+[submodule "dota2-vue-app"]
+	path = dota2-vue-app
+	url = git@github.com:johnmichealacera/dota2-vue-app.git

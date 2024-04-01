@@ -1,0 +1,17 @@
+version: "4"
+
+services:
+  frontend:
+    image: jmmonacera/dota2-vue-app:latest
+    build: ./dota2-vue-app
+    ports:
+      - "8080:8080"
+  api:
+    image: jmmonacera/dota2-api-backend:latest
+    build: ./dota2-api-backend
+    ports:
+      - "3000:3000"
+  redis:
+    image: redis:6
+    ports:
+      - "6379:6379"
